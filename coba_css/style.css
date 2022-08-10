@@ -1,0 +1,149 @@
+* {
+    margin: 10;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f8f8f8;
+}
+
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px 25px 25px;
+    text-align: center;
+
+    margin: 5px 0 25px;
+}
+
+table {
+    border: 1px solid #ddeeee ;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    margin: 10px auto 10px auto;
+}
+th,td {
+    border: 1px solid #ddeeee;
+    padding: 20px;
+    text-align: left;
+}
+
+.input-control {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin:5px 0;
+}
+
+.btn-daftar {
+    padding: 10px 12px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+
+}
+.btn-daftar:hover {
+    cursor: pointer;
+    background-color:  rgb(8, 8, 104);
+
+}
+
+.btn-cetak {
+    display: inline-block;
+    padding:10px 17px;
+    color:black;
+    background-color: rgb(127, 225, 255);
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.btn-cetak:hover {
+    cursor: pointer;
+    background-color:rgb(23, 133, 167) ;
+}
+
+.coba {
+    width: 100%;
+    
+    
+}
+.coba tr {
+    height: 30px;
+}
+
+.box-login {
+    width: 350px;
+    min-height: 220px;
+    
+}
+
+
+header {
+    
+    background-color: #fff;
+    padding: 7px;
+    text-align: center;
+
+}
+
+header::after{
+    content: '';
+    display: block;
+    clear: both;
+    
+}
+
+header h1{
+
+    margin: 0;
+    padding: 7px 1px 10px;
+    
+    background-color: rgb(21, 168, 136);
+    
+    color: white;
+
+    
+    text-align: center;
+    list-style-type: none;
+    
+    
+
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 87, 179);
+
+}
+li {
+    
+    text-decoration: none;
+}
+li a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+}
+a {
+    text-decoration: none;
+}
+.ap{
+    color: red;
+}
+.content{
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin:50px auto;
+
+}   

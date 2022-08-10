@@ -1,0 +1,33 @@
+*{
+    font-family: "Trebuchet MS" ;
+}
+h1{
+    text-transform: uppercase;
+    color: salmon;
+}
+table {
+    border: 1px solid #ddeeee ;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    margin: 10px auto 10px auto;
+}
+th,td {
+    border: 1px solid #ddeeee;
+    padding: 20px;
+    text-align: left;
+}
+.back{
+    margin:13rem;
+    color: salmon;
+    
+    text-decoration: none;
+    text-align: center;
+}
+label {
+    margin: 0;
+    padding-left: 15%;
+}
+.coba{
+    padding: 3%;
+}
